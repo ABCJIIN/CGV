@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGV homepage</title>
+    <style>
+        #top {
+            background-color: #dbc7e2;
+            height: 80px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .logo {
+            width: 247.91px;
+            height: 53px;
+            margin: 0%;
+            display: inline-block;
+        }
+        .logo a {
+            margin: 0%;
+        }
+        .header ul {
+            display: inline-block;
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+        }
+        .header li {
+            display: inline-block;
+            text-align: right;
+            margin: 0%;
+            padding: 0%;
+            font-size: 13px;
+        }
+        .header {
+            position: relative;
+            padding: 30px 6px 25px 5px;
+            margin: auto 77.300px;
+            border-bottom: 1px solid rgb(216, 216, 216);
+
+        }
+        .member {
+            position: absolute;
+            right: 0%;
+        }
+        .nav ul{
+            list-style: none;
+        }.nav li {
+            float: left;
+        }
+        .nav a,h2,h3 {
+            font-size: 16px;
+        }
+        .nav > li:first-child {
+            width: 137px;
+        }
+        .nav > li {
+            padding: 20px 0;
+        }
+        .nav h2 {
+            display: inline-block;
+            margin: 0%;
+        }
+        .nav_overmenu dd {
+            margin-left: 0px;
+        }
+        .nav_manu dl,a {
+            margin-left: 60px;
+        }
+        .nav{
+            position : absolute;
+            display : inline-block;
+        }
+        .nav_manu{
+            cursor : pointer;
+        }
+        .nav_overmenu{
+            display : none;
+            position : absolute;
+            z-index : 4;
+            background-color: #ffffff;
+            min-width : 200px;
+        }
+
+        .nav_overmenu a{
+            display : block;
+            color : rgb(37, 37, 37);
+        }
+
+        .nav_overmenu a:hover{
+            background-color : #ececec
+        }
+
+        .nav:hover .nav_overmenu {
+            display: block;
+        }
+        .video_ad {
+            overflow: hidden;
+            position: relative;
+            left: 200px;
+            width: 100%;
+            height: 100%;
+            transform: scale(0.9);
+            z-index: 3;
+        }
+        #sky_blue {
+            position: absolute;
+            top: 170px;
+            left: 0;
+            font-weight: 700;
+            font-size: 40px;
+            color: #fff;
+            line-height: 1.450em;
+            text-shadow: 2px 2px 4px rgb(0 0 0 / 72%);
+            z-index: 2;
+            pointer-events: none;
+        }
+        #pst {
+            position: absolute;
+            top: 239px;
+            left: 0;
+            max-width: 100%;
+            font-size: 20px;
+            color: #fff;
+            line-height: 1.450em;
+            z-index: 1;
+        }
+        .video_content {
+            position: relative;
+            top: 50px;
+            height: 498px;
+        }               
+    </style>
+</head>
+<body>
+    <div id="top" style="text-align: center;">
+        <a href="http://www.cgv.co.kr/movies/detail-view/?midx=85674" target="_blank">
+            <img src="./980x80_.jpg" alt="하늘의 푸르름을 아는 사람이여"> 
+        </a>
+    </div>
+    <div class="header">
+        <h1 class="logo">
+            <a href="https://www.cgv.co.kr/" target="_parent">
+                <img src="./logoRed.png" height="53px" alt="CGV">
+            </a>
+                <span style="font-size: 16px; font-weight: 200; letter-spacing: 1px;">CULTUREPLEX</span>
+        </h1>
+            <ul class="member">
+                <a href="http://www.cgv.co.kr/culture-event/event/detailViewUnited.aspx?seq=31426&menu=006" target="_parent">
+                    <img src="./16462658373950.png" height="36px" alt="현대M포인트">
+                </a>
+            <li>
+                <a href="https://www.cgv.co.kr/user/login/?returnURL=https%3a%2f%2fwww.cgv.co.kr%2fdefault.aspx" target="_parent">
+                    <img src="./loginPassword.png" height="36px" alt="로그인"><br>
+                        <span>로그인</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.cgv.co.kr/user/join/" target="_parent">
+                    <img src="./loginJoin.png" height="36px" alt="회원가입"><br>
+                        <span>회원가입</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cgv.co.kr/user/login/?returnURL=%2fuser%2fmycgv%2fdefault.aspx" target="_parent">
+                    <img src="./loginMember.png" height="36px" alt="MY CGV"><br>
+                        <span>MY CGV</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.cgv.co.kr/support/default.aspx" target="_parent">
+                    <img src="./loginCustomer.png" height="36px" alt="고객센터"><br>
+                        <span>고객센터</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+        <div class="nav">
+            <ul class="nav_manu">
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/movies/?lt=1&ft=0">영화</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>영화</h2></dt>
+                        <dd><h3>무비차트</h3></dd>
+                        <dd><h3>아트하우스</h3></dd>
+                        <dd><h3>ICECON</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/theaters/">극장</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>극장</h2></dt>
+                        <dd><h3>CGV 극장</h3></dd>
+                        <dd><h3>특별관</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/ticket/">예매</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>예매</h2></dt>
+                        <dd><h3>빠른예매</h3></dd>
+                        <dd><h3>상영스케줄</h3></dd>
+                        <dd><h3>English Ticketing</h3></dd>
+                        <dd><h3>Englisk Schedule</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/culture-event/popcorn-store/">스토어</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>스토어</h2></dt>
+                        <dd><h3>영화관람권</h3></dd>
+                        <dd><h3>기프트카드</h3></dd>
+                        <dd><h3>콤보</h3></dd>
+                        <dd><h3>팝콘</h3></dd>
+                        <dd><h3>음료</h3></dd>
+                        <dd><h3>스낵</h3></dd>
+                        <dd><h3>플레이존</h3></dd>
+                        <dd><h3>씨네샵</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/culture-event/event/defaultNew.aspx#1">이벤트</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>이벤트</h2></dt>
+                        <dd><h3>SPECIAL</h3></dd>
+                        <dd><h3>영화/예매</h3></dd>
+                        <dd><h3>멤버십/CLUB</h3></dd>
+                        <dd><h3>CGV 극장별</h3></dd>
+                        <dd><h3>제휴할인</h3></dd>
+                        <dd><h3>당첨자 발표</h3></dd>
+                        <dd><h3>종료된 이벤트</h3></dd>
+                    </dl>
+                </li>
+                <li>
+                    <h2>
+                        <a href="http://www.cgv.co.kr/discount/discountlist.aspx#1">혜택</a>
+                    </h2>
+                    <dl class="nav_overmenu">
+                        <dt><h2>혜택</h2></dt>
+                        <dd><h3>CGV 할인정보</h3></dd>
+                        <dd><h3>CLUB 서비스</h3></dd>
+                        <dd><h3>VIP 라운지</h3></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="video_content">
+            <div class="video_ad">
+                <video src="https://adimg.cgv.co.kr/images/202203/HerBlueSky/HerBlueSky_1080x608_0302.mp4" type="video/mp4"></video>
+                <strong id="sky_blue">하늘의 푸르름을 아는 사람이여</strong>
+                <span id="pst">과거와 현재를 잇는<br>기적 같은 두 번째 첫사랑 이야기</span>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
